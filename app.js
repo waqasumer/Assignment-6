@@ -445,13 +445,11 @@
 // function counting(start, end) {
 //     start = +prompt("Enter number from which you want to start counting?");
 //     end = +prompt("Enter the number up to which you want to end the counting?");
-//     var text = "";
 //     for (var i = start; i <= end; i++) {
-//         text += i + ' ';
-//         }
-//         return text.slice(0, -1);
+//         document.write(i + "<br>");
+//     }
 // }
-// document.write(counting());
+// counting();
 
 // // Task 8
 // function calculateHypotenuse(base, perpendicular) {
